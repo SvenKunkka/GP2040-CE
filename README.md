@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 <p align="center">
   <a href="https://gp2040-ce.info">
     <img alt="GP2040-CE" src="https://raw.githubusercontent.com/OpenStickCommunity/Site/main/docs/assets/images/gp2040-ce-logo.png" />
@@ -99,3 +103,32 @@ Please respect the coding style of the file(s) you are working in, and enforce t
 - [tamanegitaro](https://github.com/tamanegitaro/) and [alirin222](https://github.com/alirin222) for the basis of the mini/classic controller work
 - [Ryzee119](https://github.com/Ryzee119) for the wonderful [ogx360_t4](https://github.com/Ryzee119/ogx360_t4/) and xid_driver library for Original Xbox support
 - [Santroller](https://github.com/Santroller/Santroller) and [GIMX](https://github.com/matlo/GIMX) for technical examples of Xbox One authentication using pass-through
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+[OpenStickCommunity/GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) 的分支，为 Raspberry Pi Pico 和其他 RP2040 板卡提供游戏控制器固件，包含多种输入模式、SOCD 处理、方向模拟、灯光和内置网页配置；原工作归社区贡献者。
+
+**使用入口：** 从 [下载](https://gp2040-ce.info/downloads)、[安装](https://gp2040-ce.info/installation) 和 [接线](https://gp2040-ce.info/controller-build/wiring) 文档选择适合板卡的版本，配置入口见 [使用说明](https://gp2040-ce.info/usage)。
+
+**范围说明：** 平台兼容性与功能受所选输入模式、硬件和具体配置约束，应按对应上游文档确认；README 的延迟数据对应其声明的测试版本与条件。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A fork of [OpenStickCommunity/GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE), providing gamepad firmware for Raspberry Pi Pico and other RP2040 boards, with multiple input modes, SOCD cleaning, directional emulation, lighting and embedded web configuration. Original work belongs to community contributors.
+
+**Getting started:** Choose a board-appropriate release through the [download](https://gp2040-ce.info/downloads), [installation](https://gp2040-ce.info/installation) and [wiring](https://gp2040-ce.info/controller-build/wiring) guides, then follow the [usage documentation](https://gp2040-ce.info/usage).
+
+**Scope:** Platform compatibility and features depend on the input mode, hardware and configuration; consult the relevant upstream documentation. README latency figures apply to their stated versions and test conditions.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [OpenStickCommunity/GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
